@@ -1,0 +1,721 @@
+{
+  "titulo": "Algoritmos y estructuras de datos - práctica integral",
+  "descripcion": "Preguntas de opción múltiple basadas en el contenido teórico. Las respuestas correctas están distribuidas en distintas posiciones y las opciones incorrectas son distractores cercanos.",
+  "preguntas": [
+    {
+      "pregunta": "En el proceso de resolución de problemas en programación, ¿qué se busca principalmente durante el análisis del problema?",
+      "opciones": [
+        "Elegir directamente el lenguaje de programación y comenzar la codificación.",
+        "Comprender requisitos y necesidades para construir un modelo abstracto que descarte lo irrelevante.",
+        "Definir la interfaz visual antes de conocer los datos del problema.",
+        "Medir únicamente el tiempo de ejecución del algoritmo ya implementado."
+      ],
+      "respuesta": 1,
+      "explicacion": "El análisis intenta aclarar requisitos ambiguos, incompletos o contradictorios y obtener un modelo abstracto útil."
+    },
+    {
+      "pregunta": "¿Qué representa el modelo abstracto dentro del desarrollo de una solución?",
+      "opciones": [
+        "Una versión final del programa escrita en un lenguaje concreto.",
+        "Una tabla con todos los errores encontrados durante la prueba.",
+        "Una simplificación del problema que conserva lo importante y elimina detalles no necesarios.",
+        "Una copia exacta de la realidad sin ningún tipo de recorte."
+      ],
+      "respuesta": 2,
+      "explicacion": "El modelo abstracto no reproduce todo el problema real; selecciona los elementos relevantes para resolverlo."
+    },
+    {
+      "pregunta": "La expresión 'Algoritmos + Estructuras de datos = Programas' indica que un programa combina principalmente:",
+      "opciones": [
+        "La cantidad de usuarios y la velocidad de conexión a internet.",
+        "La memoria secundaria y el sistema operativo usado para ejecutar archivos.",
+        "El diseño gráfico de la pantalla y los colores de la interfaz.",
+        "La forma de almacenar la información y la forma de manipularla."
+      ],
+      "respuesta": 3,
+      "explicacion": "Las estructuras de datos organizan la información y los algoritmos definen cómo se trabaja con ella."
+    },
+    {
+      "pregunta": "¿Cuál de estas opciones corresponde mejor a la etapa de implementación?",
+      "opciones": [
+        "Construir una analogía informal, como una receta de cocina.",
+        "Traducir el diseño a código real usando estructuras y algoritmos concretos.",
+        "Preguntar al cliente qué significa cada requisito ambiguo.",
+        "Eliminar del problema todos los elementos irrelevantes antes de diseñar."
+      ],
+      "respuesta": 1,
+      "explicacion": "Implementar implica pasar del diseño al código, eligiendo recursos concretos del lenguaje."
+    },
+    {
+      "pregunta": "¿Por qué la verificación y evaluación se consideran un proceso cíclico?",
+      "opciones": [
+        "Porque consiste solamente en compilar el programa una vez.",
+        "Porque puede requerir implementar, verificar, corregir y volver a verificar varias veces.",
+        "Porque evita modificar el diseño aunque el modelo sea incorrecto.",
+        "Porque siempre se realiza antes de analizar el problema."
+      ],
+      "respuesta": 1,
+      "explicacion": "El desarrollo puede volver sobre la implementación, el diseño o incluso el modelo abstracto si algo falla."
+    },
+    {
+      "pregunta": "Según el material, un tipo de dato puede definirse como:",
+      "opciones": [
+        "Una colección de valores.",
+        "Una operación matemática sin valores asociados.",
+        "Una secuencia obligatoria de instrucciones ejecutables.",
+        "Un archivo externo usado solo para guardar texto."
+      ],
+      "respuesta": 0,
+      "explicacion": "El contenido define los tipos de datos como colecciones de valores, luego clasificables por distintos criterios."
+    },
+    {
+      "pregunta": "¿Cuál de estas clasificaciones corresponde a tipos de datos según si modifican su valor en ejecución?",
+      "opciones": [
+        "Raíz y hojas.",
+        "Constantes y variables.",
+        "Pilas y colas.",
+        "Lineales y no lineales."
+      ],
+      "respuesta": 1,
+      "explicacion": "Según su modificación durante la ejecución, los datos pueden clasificarse como constantes o variables."
+    },
+    {
+      "pregunta": "¿Qué opción reúne ejemplos de tipos elementales predefinidos?",
+      "opciones": [
+        "Lista, pila, cola y árbol.",
+        "Integer, boolean, char y real.",
+        "Procedure, function y TADs.",
+        "Array, record, file y pointer."
+      ],
+      "respuesta": 1,
+      "explicacion": "Integer, boolean, char y real aparecen como tipos elementales predefinidos."
+    },
+    {
+      "pregunta": "¿Qué es un Tipo de Dato Abstracto (TDA)?",
+      "opciones": [
+        "Una variable física que guarda siempre una dirección de memoria.",
+        "Un algoritmo informal que no admite operaciones.",
+        "Un modelo matemático con una serie de operaciones definidas sobre ese modelo.",
+        "Una estructura que necesariamente debe implementarse con arrays estáticos."
+      ],
+      "respuesta": 2,
+      "explicacion": "El TDA se define por el modelo y las operaciones, no por una implementación específica."
+    },
+    {
+      "pregunta": "¿Qué característica de un TDA permite cambiar la representación interna sin afectar las aplicaciones que lo usan?",
+      "opciones": [
+        "Implementación independiente.",
+        "Desbordamiento de cajones.",
+        "Ordenación descendente.",
+        "Recorrido postorden."
+      ],
+      "respuesta": 0,
+      "explicacion": "La implementación independiente permite modificar módulos internos sin alterar el uso externo del TDA."
+    },
+    {
+      "pregunta": "En un TDA, el ocultamiento de la información significa que:",
+      "opciones": [
+        "Los detalles de representación e implementación quedan ocultos para quien usa el tipo.",
+        "Los datos se borran automáticamente después de cada operación.",
+        "Todas las operaciones deben ser visibles y modificables desde cualquier parte.",
+        "El programa no puede consultar ningún dato almacenado."
+      ],
+      "respuesta": 0,
+      "explicacion": "El usuario del TDA interactúa mediante operaciones, sin depender de cómo está representado internamente."
+    },
+    {
+      "pregunta": "¿Cuál es el orden de pasos propuesto para programar un TDA?",
+      "opciones": [
+        "Análisis de datos y operaciones, especificación del TDA e implementación.",
+        "Implementación, eliminación de memoria y recorrido inorden.",
+        "Diseño visual, compilación y borrado de archivos.",
+        "Inserción, búsqueda y balanceo de altura."
+      ],
+      "respuesta": 0,
+      "explicacion": "La metodología del TDA inicia con análisis, continúa con especificación y termina en implementación."
+    },
+    {
+      "pregunta": "La especificación de un TDA también recibe el nombre de:",
+      "opciones": [
+        "Subárbol.",
+        "Bucket.",
+        "Interface.",
+        "Caso base."
+      ],
+      "respuesta": 2,
+      "explicacion": "La especificación o interface responde al qué compone un TDA."
+    },
+    {
+      "pregunta": "¿Cuál de estas opciones describe mejor una operación de consulta en un TDA?",
+      "opciones": [
+        "Cambia la implementación interna sin declarar encabezamientos.",
+        "Elimina obligatoriamente todos los elementos del TDA.",
+        "Crea siempre una nueva estructura vacía sin recibir argumentos.",
+        "Usa un argumento del tipo y devuelve un valor de otro tipo sin modificar necesariamente el objeto."
+      ],
+      "respuesta": 3,
+      "explicacion": "Las operaciones de consulta permiten obtener información a partir de un objeto del TDA."
+    },
+    {
+      "pregunta": "¿Qué diferencia central hay entre encapsulación y ocultación según el material?",
+      "opciones": [
+        "La encapsulación elimina nodos; la ocultación ordena árboles binarios.",
+        "La encapsulación permite acceder a todos los atributos; la ocultación obliga a duplicar la tabla hash.",
+        "La encapsulación oculta detalles de implementación del comportamiento; la ocultación restringe el acceso al estado del objeto.",
+        "La encapsulación solo se usa en archivos; la ocultación solo en memoria secundaria."
+      ],
+      "respuesta": 2,
+      "explicacion": "Ambas favorecen la abstracción, pero apuntan a aspectos distintos: implementación/comportamiento y acceso al estado."
+    },
+    {
+      "pregunta": "¿Qué caracteriza a una estructura de datos estática?",
+      "opciones": [
+        "Su espacio de memoria se reserva con anticipación y no cambia durante la ejecución.",
+        "Solo permite retirar elementos por el frente y agregarlos por el final.",
+        "Siempre representa relaciones jerárquicas entre nodos.",
+        "Puede crecer o decrecer libremente mientras se ejecuta el programa."
+      ],
+      "respuesta": 0,
+      "explicacion": "Las estructuras estáticas tienen tamaño fijado previamente, lo que las vuelve rígidas."
+    },
+    {
+      "pregunta": "¿Cuál es una desventaja típica de usar arrays para insertar o eliminar datos?",
+      "opciones": [
+        "Puede requerir corrimiento de elementos dentro de posiciones consecutivas de memoria.",
+        "Obliga a que cada nodo tenga exactamente dos hijos.",
+        "Hace imposible acceder a una posición determinada.",
+        "Impide almacenar datos del mismo tipo en una colección finita."
+      ],
+      "respuesta": 0,
+      "explicacion": "Como los arrays ocupan posiciones consecutivas, insertar o eliminar puede exigir mover elementos."
+    },
+    {
+      "pregunta": "Las estructuras dinámicas se usan principalmente porque:",
+      "opciones": [
+        "Solo pueden representar arreglos de tamaño fijo.",
+        "Permiten que el tamaño de la estructura varíe durante la ejecución del programa.",
+        "Reservan todo el espacio al inicio y nunca lo modifican.",
+        "Evitan por completo la gestión de memoria."
+      ],
+      "respuesta": 1,
+      "explicacion": "Las estructuras dinámicas superan la rigidez de las estáticas, aunque requieren atención sobre la memoria."
+    },
+    {
+      "pregunta": "¿Cuál de estas estructuras aparece como ejemplo de estructura lineal?",
+      "opciones": [
+        "Cola.",
+        "Grafo completo.",
+        "Árbol 2-3.",
+        "Árbol binario."
+      ],
+      "respuesta": 0,
+      "explicacion": "Listas, pilas y colas son estructuras lineales porque sus elementos se organizan en secuencia."
+    },
+    {
+      "pregunta": "¿Qué es un puntero en C según el material?",
+      "opciones": [
+        "Una función que ordena datos alfabéticamente.",
+        "Un nodo que siempre tiene dos hijos no vacíos.",
+        "Una variable que contiene una dirección de memoria.",
+        "Una constante que contiene directamente el valor final del programa."
+      ],
+      "respuesta": 2,
+      "explicacion": "Un puntero no almacena el dato directamente, sino la dirección donde se encuentra."
+    },
+    {
+      "pregunta": "Cuando se trabaja con un puntero, ¿qué dos variables están implicadas?",
+      "opciones": [
+        "La variable puntero y la variable apuntada.",
+        "El frente y el final de la cola.",
+        "La raíz y la hoja del árbol.",
+        "La clave de búsqueda y el cajón de desbordamiento."
+      ],
+      "respuesta": 0,
+      "explicacion": "El puntero guarda la dirección; la variable apuntada contiene el dato."
+    },
+    {
+      "pregunta": "En C, el operador & aplicado a una variable permite:",
+      "opciones": [
+        "Comparar dos subárboles por altura.",
+        "Reservar automáticamente un nodo para una pila.",
+        "Obtener la dirección de memoria de esa variable.",
+        "Obtener el contenido del objeto apuntado por un puntero."
+      ],
+      "respuesta": 2,
+      "explicacion": "& es el operador de dirección; retorna la dirección de su operando."
+    },
+    {
+      "pregunta": "En C, el operador * usado como indirección permite:",
+      "opciones": [
+        "Calcular el módulo de una clave de búsqueda.",
+        "Declarar que una cola es FIFO.",
+        "Retornar el valor del objeto hacia el cual apunta su operando.",
+        "Duplicar la tabla de direcciones de cajones."
+      ],
+      "respuesta": 2,
+      "explicacion": "No debe confundirse el * de una declaración con el * usado para acceder indirectamente al valor apuntado."
+    },
+    {
+      "pregunta": "¿Qué valor entero puede asignarse directamente a un puntero en C según el material?",
+      "opciones": [
+        "El tamaño total de memoria disponible.",
+        "0, equivalente a NULL.",
+        "-1, equivalente al primer elemento del array.",
+        "Cualquier dirección elegida numéricamente por el programador."
+      ],
+      "respuesta": 1,
+      "explicacion": "El material indica que 0 es el único entero asignable directamente a un puntero y equivale a NULL."
+    },
+    {
+      "pregunta": "¿Para qué se usan punteros al simular pasaje por referencia en C?",
+      "opciones": [
+        "Para enviar la dirección de una variable y poder modificar el valor al que apunta el puntero.",
+        "Para impedir que una función acceda a valores externos.",
+        "Para copiar siempre el dato sin alterar el original.",
+        "Para convertir una estructura lineal en una matriz estática."
+      ],
+      "respuesta": 0,
+      "explicacion": "Como C pasa parámetros por valor, se envía la dirección para que la función acceda al dato original."
+    },
+    {
+      "pregunta": "En una pila implementada con nodos enlazados, la función esVacia suele comprobar si:",
+      "opciones": [
+        "El nodo tiene dos hijos obligatoriamente.",
+        "El puntero de la pila es NULL.",
+        "La tabla hash tiene i bits.",
+        "El último elemento apunta al primero."
+      ],
+      "respuesta": 1,
+      "explicacion": "En el código de pila, si Pila == NULL se considera vacía."
+    },
+    {
+      "pregunta": "En la operación apilar del material, el nuevo nodo se enlaza de modo que:",
+      "opciones": [
+        "Se compara con la raíz y se envía al subárbol izquierdo o derecho.",
+        "Se divide en dos nodos y la mediana sube al padre.",
+        "Se inserta siempre al final de la estructura usando el puntero ultimo.",
+        "Su campo sig apunta a la pila anterior y luego la pila pasa a apuntar al nuevo nodo."
+      ],
+      "respuesta": 3,
+      "explicacion": "Apilar agrega al inicio: nuevoNodo->sig = *Pila y luego *Pila = nuevoNodo."
+    },
+    {
+      "pregunta": "Una cola es una estructura FIFO porque:",
+      "opciones": [
+        "El primer elemento en entrar es el primero en salir.",
+        "Todos los elementos salen en orden alfabético.",
+        "El último elemento en entrar siempre sale primero.",
+        "Cada nodo sale después de recorrer ambos subárboles."
+      ],
+      "respuesta": 0,
+      "explicacion": "FIFO significa first in, first out: primero en entrar, primero en salir."
+    },
+    {
+      "pregunta": "En una cola, los extremos usados para operar son:",
+      "opciones": [
+        "Frente para retirar y final para insertar.",
+        "Cajón para buscar y bucket para recorrer.",
+        "Izquierda para consultar y derecha para compilar.",
+        "Raíz para insertar y hoja para retirar."
+      ],
+      "respuesta": 0,
+      "explicacion": "El material aclara que se retira por el frente y se inserta por el final."
+    },
+    {
+      "pregunta": "Al insertar en una cola vacía con punteros primero y ultimo, ¿qué debe ocurrir?",
+      "opciones": [
+        "Ambos punteros deben apuntar al nodo creado.",
+        "La tabla de direcciones debe duplicarse antes de insertar.",
+        "Solo ultimo debe apuntar al nuevo nodo y primero quedar NULL.",
+        "El nodo debe colocarse como hijo izquierdo de la raíz."
+      ],
+      "respuesta": 0,
+      "explicacion": "Si la cola está vacía, primero y ultimo quedan apuntando al mismo nuevo nodo."
+    },
+    {
+      "pregunta": "¿Qué tienen en común iteración y recursividad?",
+      "opciones": [
+        "Ambas necesitan obligatoriamente una pila dinámica programada por el usuario.",
+        "Ambas permiten ejecutar repetidamente un bloque de sentencias con una condición de fin adecuada.",
+        "Ambas eliminan la necesidad de un caso de terminación.",
+        "Ambas se aplican solo a árboles binarios ordenados."
+      ],
+      "respuesta": 1,
+      "explicacion": "Iteración y recursividad repiten procesos, pero usan mecanismos distintos."
+    },
+    {
+      "pregunta": "¿Cómo logra la repetición la recursividad?",
+      "opciones": [
+        "Mediante una función hash con distribución uniforme.",
+        "Mediante el corrimiento físico de elementos de un array.",
+        "Mediante llamadas repetidas a una función o subprograma.",
+        "Mediante una estructura de repetición explícita como única opción."
+      ],
+      "respuesta": 2,
+      "explicacion": "La recursión repite llamándose a sí misma o a través de llamadas relacionadas."
+    },
+    {
+      "pregunta": "¿Cuándo termina una función recursiva correctamente?",
+      "opciones": [
+        "Cuando todos los nodos tienen tres hijos.",
+        "Cuando la tabla de cajones duplica su tamaño.",
+        "Cuando el puntero recibe una dirección numérica arbitraria.",
+        "Cuando se reconoce o alcanza un caso base."
+      ],
+      "respuesta": 3,
+      "explicacion": "Sin caso base, la recursión puede volverse infinita."
+    },
+    {
+      "pregunta": "¿Cuál es una desventaja de la recursión mencionada en el material?",
+      "opciones": [
+        "Nunca permite expresar problemas complejos de forma simple.",
+        "Hace imposible resolver un problema también por iteración.",
+        "Consume tiempo de procesador y memoria adicional por las llamadas recursivas.",
+        "Obliga a usar exclusivamente archivos en disco."
+      ],
+      "respuesta": 2,
+      "explicacion": "El material recomienda evitar recursión cuando la eficiencia es un criterio central."
+    },
+    {
+      "pregunta": "Una recursión directa ocurre cuando:",
+      "opciones": [
+        "Un árbol crece creando una nueva raíz.",
+        "Una cola retira elementos por el frente.",
+        "Un subprograma llama a otro y ese otro vuelve al primero.",
+        "El subprograma se llama directamente a sí mismo."
+      ],
+      "respuesta": 3,
+      "explicacion": "La recursión indirecta involucra al menos dos subprogramas; la directa es llamada a sí mismo."
+    },
+    {
+      "pregunta": "Un árbol es apropiado para representar:",
+      "opciones": [
+        "Relaciones jerárquicas entre elementos.",
+        "Solo colecciones lineales con acceso exclusivo al frente.",
+        "Variables que almacenan direcciones de memoria.",
+        "Únicamente registros distribuidos en cajones por hash."
+      ],
+      "respuesta": 0,
+      "explicacion": "Los árboles permiten modelar jerarquías como familias, empresas o componentes de un programa."
+    },
+    {
+      "pregunta": "¿Qué condición debe cumplir la raíz de un árbol no vacío?",
+      "opciones": [
+        "Apuntar al último elemento insertado en una cola.",
+        "Ser el único elemento sin padre.",
+        "Tener siempre exactamente tres hijos.",
+        "Ser necesariamente una hoja."
+      ],
+      "respuesta": 1,
+      "explicacion": "En un árbol no vacío hay una única raíz que no es hija de ningún otro nodo."
+    },
+    {
+      "pregunta": "En la terminología de árboles, una hoja es:",
+      "opciones": [
+        "Una secuencia de arcos entre dos nodos.",
+        "Un nodo que no tiene hijos.",
+        "Un cajón de almacenamiento que contiene registros.",
+        "El nodo que no tiene padre y aparece en el tope."
+      ],
+      "respuesta": 1,
+      "explicacion": "Los nodos sin descendientes directos se denominan hojas."
+    },
+    {
+      "pregunta": "¿Qué es un árbol binario?",
+      "opciones": [
+        "Un árbol donde cada nodo interno tiene siempre tres hijos.",
+        "Una función que asocia claves con posiciones en disco.",
+        "Una estructura lineal donde solo se accede al primer elemento.",
+        "Un árbol donde cada nodo no tiene más de dos hijos."
+      ],
+      "respuesta": 3,
+      "explicacion": "En un árbol binario cada nodo puede tener a lo sumo un hijo izquierdo y uno derecho."
+    },
+    {
+      "pregunta": "En un árbol binario ordenado según el material, si el elemento buscado es menor que la raíz, se continúa por:",
+      "opciones": [
+        "El hijo o subárbol derecho.",
+        "El cajón de desbordamiento.",
+        "El hijo o subárbol izquierdo.",
+        "El último nodo insertado de la cola."
+      ],
+      "respuesta": 2,
+      "explicacion": "La búsqueda compara con la raíz; si es menor, sigue por izquierda; en caso contrario, por derecha."
+    },
+    {
+      "pregunta": "¿Qué recorrido de árbol binario sigue el orden raíz, subárbol izquierdo, subárbol derecho?",
+      "opciones": [
+        "Postorden.",
+        "Preorden.",
+        "FIFO.",
+        "Inorden."
+      ],
+      "respuesta": 1,
+      "explicacion": "Preorden visita primero la raíz, luego el subárbol izquierdo y finalmente el derecho."
+    },
+    {
+      "pregunta": "¿Qué recorrido de árbol binario sigue el orden subárbol izquierdo, raíz, subárbol derecho?",
+      "opciones": [
+        "Inorden.",
+        "Asociación extensible.",
+        "Postorden.",
+        "Preorden."
+      ],
+      "respuesta": 0,
+      "explicacion": "El recorrido en orden visita izquierda, raíz y derecha."
+    },
+    {
+      "pregunta": "¿Qué recorrido de árbol binario visita la raíz al final?",
+      "opciones": [
+        "Postorden.",
+        "Preorden.",
+        "Inorden.",
+        "Búsqueda hash."
+      ],
+      "respuesta": 0,
+      "explicacion": "Postorden sigue subárbol izquierdo, subárbol derecho y raíz."
+    },
+    {
+      "pregunta": "¿Por qué un árbol equilibrado mejora las búsquedas?",
+      "opciones": [
+        "Porque todos los nodos quedan obligatoriamente en una sola rama.",
+        "Porque convierte el árbol en una cola FIFO.",
+        "Porque elimina la necesidad de comparar con la raíz.",
+        "Porque las ramas izquierda y derecha tienen alturas aproximadamente similares."
+      ],
+      "respuesta": 3,
+      "explicacion": "Si el árbol está equilibrado, se evita que la búsqueda se degrade como en una lista enlazada."
+    },
+    {
+      "pregunta": "Un árbol degenerado es problemático porque:",
+      "opciones": [
+        "La función hash distribuye las claves de manera uniforme.",
+        "Cada nodo interno tiene dos elementos perfectamente balanceados.",
+        "Todas las hojas quedan en el mismo nivel con tres subárboles completos.",
+        "Su estructura termina siendo equivalente a una lista enlazada."
+      ],
+      "respuesta": 3,
+      "explicacion": "El peor caso aparece cuando todos los nodos tienen solo un hijo y el árbol pierde eficiencia."
+    },
+    {
+      "pregunta": "En un árbol 2-3 ordenado, cada nodo puede contener:",
+      "opciones": [
+        "Cualquier cantidad de elementos repetidos.",
+        "Exactamente tres elementos siempre.",
+        "Solo un puntero sin dato asociado.",
+        "Uno o dos elementos."
+      ],
+      "respuesta": 3,
+      "explicacion": "El material indica que cada nodo tiene 1 o 2 elementos y no admite repetidos."
+    },
+    {
+      "pregunta": "¿Qué propiedad de balanceo tiene un árbol 2-3?",
+      "opciones": [
+        "Cada nodo interno debe tener exactamente un subárbol vacío.",
+        "Todas las hojas se encuentran en el mismo nivel.",
+        "Todas las ramas pueden tener alturas arbitrariamente distintas.",
+        "La raíz siempre queda como hoja después de cada inserción."
+      ],
+      "respuesta": 1,
+      "explicacion": "Los árboles 2-3 son balanceados por altura; sus hojas quedan al mismo nivel."
+    },
+    {
+      "pregunta": "Durante la búsqueda en un árbol 2-3, si un nodo tiene dos elementos x1 y x2 y el dato buscado está entre ambos, se sigue por:",
+      "opciones": [
+        "El hijo izquierdo.",
+        "El hijo derecho.",
+        "El hijo central.",
+        "El nodo padre."
+      ],
+      "respuesta": 2,
+      "explicacion": "Si x1 < dato < x2, la búsqueda continúa por el subárbol central."
+    },
+    {
+      "pregunta": "Al insertar en un árbol 2-3, si la hoja destino tiene un solo elemento:",
+      "opciones": [
+        "Se añade el dato en ese nodo manteniendo el orden.",
+        "Se elimina el elemento central y se fusiona con un hermano.",
+        "Se crea obligatoriamente un cajón de desbordamiento.",
+        "Se divide siempre la raíz aunque haya espacio."
+      ],
+      "respuesta": 0,
+      "explicacion": "Cuando hay espacio en el nodo, no hace falta dividirlo."
+    },
+    {
+      "pregunta": "Si al insertar en un árbol 2-3 no hay espacio en el nodo, ¿qué sucede?",
+      "opciones": [
+        "El árbol se transforma automáticamente en una cola.",
+        "La clave se envía a una función de asociación estática.",
+        "El nodo se divide y el elemento central se inserta en el padre.",
+        "El nuevo dato se descarta para conservar el balance."
+      ],
+      "respuesta": 2,
+      "explicacion": "La división puede propagarse hacia arriba si el padre también está lleno."
+    },
+    {
+      "pregunta": "Cuando un árbol 2-3 crece en altura, según el material lo hace:",
+      "opciones": [
+        "Por abajo, agregando hojas en niveles distintos.",
+        "Por el medio, eliminando todos los nodos internos.",
+        "Por arriba, creando una nueva raíz con un solo elemento.",
+        "Por los costados, duplicando una tabla de direcciones."
+      ],
+      "respuesta": 2,
+      "explicacion": "Si la raíz se divide, se crea una nueva raíz y el árbol aumenta su altura desde arriba."
+    },
+    {
+      "pregunta": "En hashing, una función de asociación se usa para:",
+      "opciones": [
+        "Recorrer un árbol binario en postorden.",
+        "Determinar el caso base de una función recursiva.",
+        "Simular pasaje por referencia usando punteros.",
+        "Obtener directamente el cajón o bloque asociado a una clave de búsqueda."
+      ],
+      "respuesta": 3,
+      "explicacion": "La organización asociativa calcula la ubicación a partir de la clave mediante una función."
+    },
+    {
+      "pregunta": "¿Qué es un cajón o bucket en hashing?",
+      "opciones": [
+        "Una unidad de almacenamiento que puede guardar uno o más registros.",
+        "Una función que llama directamente a sí misma.",
+        "Una variable que contiene la dirección de otra variable.",
+        "Un nodo raíz sin padre dentro de un árbol."
+      ],
+      "respuesta": 0,
+      "explicacion": "Un cajón normalmente es un bloque de disco, aunque podría elegirse de otro tamaño."
+    },
+    {
+      "pregunta": "¿Qué problema aparece cuando registros con distintas claves se asocian al mismo cajón?",
+      "opciones": [
+        "El puntero se inicializa automáticamente en NULL.",
+        "Puede ser necesario recorrer secuencialmente el cajón para localizar el registro.",
+        "La cola deja de ser FIFO.",
+        "El árbol queda balanceado automáticamente."
+      ],
+      "respuesta": 1,
+      "explicacion": "Las colisiones obligan a revisar los registros del cajón compartido."
+    },
+    {
+      "pregunta": "Una buena función de asociación debería procurar:",
+      "opciones": [
+        "Asignar todas las claves al mismo cajón para simplificar la búsqueda.",
+        "Distribución uniforme y aleatoria de las claves entre los bloques.",
+        "Reservar memoria estática para impedir inserciones.",
+        "Ordenar siempre los datos mediante recorrido inorden."
+      ],
+      "respuesta": 1,
+      "explicacion": "La uniformidad y aleatoriedad reducen atascos y desbordamientos."
+    },
+    {
+      "pregunta": "¿Cuál es una deficiencia de la asociación estática cuando la base de datos crece?",
+      "opciones": [
+        "Permite cambiar la función dinámicamente sin reorganizar.",
+        "Puede degradarse el rendimiento por desbordamientos si el número inicial de cajones fue pequeño.",
+        "Siempre crea cajones bajo demanda sin desperdiciar espacio.",
+        "Garantiza que nunca existan colisiones."
+      ],
+      "respuesta": 1,
+      "explicacion": "La asociación estática no se adapta naturalmente al crecimiento o disminución de la base."
+    },
+    {
+      "pregunta": "En asociación extensible, los cajones se crean:",
+      "opciones": [
+        "Bajo demanda, sin crear uno por cada valor posible de la función hash.",
+        "Siempre en la raíz de un árbol binario ordenado.",
+        "Todos al inicio, uno por cada combinación posible de 32 bits.",
+        "Solo después de eliminar todos los registros de la base."
+      ],
+      "respuesta": 0,
+      "explicacion": "Aunque la función puede producir un rango amplio, no se materializa un cajón para cada valor posible."
+    },
+    {
+      "pregunta": "En hashing extensible, ¿para qué se usan los i bits de h(K)?",
+      "opciones": [
+        "Para definir el caso base de una función recursiva.",
+        "Para indicar el frente y el final de una cola.",
+        "Para decidir si un árbol es degenerado.",
+        "Para buscar la entrada correspondiente en la tabla de direcciones de cajones."
+      ],
+      "respuesta": 3,
+      "explicacion": "Los i bits funcionan como desplazamiento o índice dentro de la tabla de direcciones."
+    },
+    {
+      "pregunta": "En hashing extensible, si al insertar un registro el cajón está lleno, el procedimiento general es:",
+      "opciones": [
+        "Llamar recursivamente al mismo subprograma sin condición de fin.",
+        "Dividir el cajón y redistribuir los registros actuales junto con el nuevo.",
+        "Borrar la tabla de direcciones y reiniciar la base.",
+        "Convertir el cajón en una pila LIFO."
+      ],
+      "respuesta": 1,
+      "explicacion": "La inserción ante cajón lleno puede requerir dividir cajones y, a veces, aumentar los bits usados."
+    },
+    {
+      "pregunta": "Un grafo dirigido se caracteriza porque:",
+      "opciones": [
+        "Todos sus nodos deben tener exactamente dos hijos.",
+        "Cada vértice debe conectarse con todos los demás sin orientación.",
+        "Ninguna de sus aristas tiene dirección.",
+        "Todas sus aristas son dirigidas."
+      ],
+      "respuesta": 3,
+      "explicacion": "La diferencia entre grafo dirigido y no dirigido depende de la orientación de las aristas."
+    },
+    {
+      "pregunta": "En grafos, el grado de entrada de un vértice es:",
+      "opciones": [
+        "La suma total de cajones de una tabla hash.",
+        "La altura máxima de un árbol binario.",
+        "El número de aristas que inciden en ese vértice.",
+        "El número de aristas que emergen desde ese vértice."
+      ],
+      "respuesta": 2,
+      "explicacion": "Entrada refiere a aristas que llegan o inciden en el vértice."
+    },
+    {
+      "pregunta": "¿Qué es un camino simple en un grafo?",
+      "opciones": [
+        "Un grafo donde cada vértice tiene exactamente dos hijos.",
+        "Un camino en el que todos sus vértices son distintos.",
+        "Una secuencia que repite siempre el vértice inicial.",
+        "Una tabla que usa i bits para localizar buckets."
+      ],
+      "respuesta": 1,
+      "explicacion": "El camino simple no repite vértices."
+    },
+    {
+      "pregunta": "Un grafo conexo es aquel en el que:",
+      "opciones": [
+        "Siempre existe un camino que une dos vértices cualesquiera.",
+        "Cada nodo tiene uno o dos elementos y todas las hojas están al mismo nivel.",
+        "Existen vértices que nunca pueden unirse por un camino.",
+        "La función hash asigna todas las claves al mismo cajón."
+      ],
+      "respuesta": 0,
+      "explicacion": "La conectividad exige que cualquier par de vértices pueda comunicarse mediante algún camino."
+    },
+    {
+      "pregunta": "En un grafo completo no dirigido con n vértices, la cantidad de aristas es:",
+      "opciones": [
+        "n(n-1)/2.",
+        "log2(n-1).",
+        "n(n-1).",
+        "2 elevado a n."
+      ],
+      "respuesta": 0,
+      "explicacion": "El material distingue: grafo completo dirigido n(n-1), no dirigido n(n-1)/2."
+    },
+    {
+      "pregunta": "¿Cuáles son dos técnicas estándar para representar numéricamente un grafo?",
+      "opciones": [
+        "Matriz de adyacencia y lista de adyacencia.",
+        "Preorden y postorden.",
+        "Constructoras y modificadoras.",
+        "Frente y final."
+      ],
+      "respuesta": 0,
+      "explicacion": "El material menciona matriz de adyacencia mediante arreglos y lista de adyacencia mediante punteros/listas enlazadas."
+    }
+  ]
+}

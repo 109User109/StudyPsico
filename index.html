@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cuestionario Algo2 (?</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="topbar" aria-label="Panel principal">
+        <div>
+          <p class="eyebrow">Cuestionario de estudio</p>
+          <h1 id="quiz-title">StudyPsico</h1>
+        </div>
+        <div class="actions">
+          <button id="reset-button" type="button" class="ghost-button">Reiniciar</button>
+        </div>
+      </section>
+
+      <section class="status-grid" aria-label="Estado del examen">
+        <article>
+          <span>Preguntas</span>
+          <strong id="total-count">0</strong>
+        </article>
+        <article>
+          <span>Respondidas</span>
+          <strong id="answered-count">0</strong>
+        </article>
+        <article>
+          <span>Puntaje</span>
+          <strong id="score-count">--</strong>
+        </article>
+      </section>
+
+      <section id="quiz-description" class="description"></section>
+
+      <form id="quiz-form" class="quiz-form"></form>
+
+      <section class="footer-actions">
+        <button id="grade-button" type="button" class="primary-button">Corregir examen</button>
+      </section>
+
+      <section id="results" class="results" hidden></section>
+    </main>
+
+    <template id="question-template">
+      <fieldset class="question-card">
+        <legend></legend>
+        <div class="options"></div>
+      </fieldset>
+    </template>
+
+    <script src="./app.js?v=3"></script>
+  </body>
+</html>
